@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playpen+Sans+Thai:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Deva:wght@100..800&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-color: #121212;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+* {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+* a {
+    text-decoration: none;
+    color: #fcfbfb;
+    font-family: "Varela Round", sans-serif;
+    font-size: 15px;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
+    align-items: center;
+    background-color: #121212;
+}
+
+.nav .right {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav .right a {
+    text-align: center;
+    width: 100px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.nav .right a:hover {
+    color: rgb(255, 166, 0);
+}
+
+
+
+.myself {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    min-height: 700px;
+
+}
+
+.myself .right img {
+    width: 50vw;
+    margin-top: 110px;
+    margin-right: 0vw;
+}
+
+.myself .left {
+    margin-left: 80px;
+
+}
+
+.myself .left .SocialMedia div img {
+    width: 130px;
+    margin-bottom: 40px;
+
+}
+
+.myself .left .SocialMedia {
+    display: flex;
+    flex-direction: row;
+}
+
+.myself .left .SocialMedia a:hover {
+    color: #f16a00;
+}
+
+.myself .SocialMedia div:hover {
+    scale: 0.9;
+    transition: 0.3s all ease;
+}
+
+.myself .Resume a {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 29px;
+    border: 1px solid #f16a00;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #f16a00;
+
+}
+
+.left p {
+    color: #bbb5b1;
+    font-size: 80px;
+    margin-top: 80px;
+    margin-bottom: 5px;
+
+}
+
+.left h1 {
+    color: #f16a00;
+    font-size: 55px;
+    font-family: "Varela Round", sans-serif;
+    margin-top: 0;
+    letter-spacing: 0.5px;
+
+}
+
+.left h2 {
+    color: #bbb5b1;
+    font-size: 40px;
+    font-family: "Playpen Sans Thai", cursive;
+    margin-top: 5px;
+}
+
+.myself .Resume:hover {
+    color: #f16a00;
+    scale: 0.9;
+    transition: 0.3 all ease;
+}
+
+.Box {
+
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    background-color: #1c1b1b;
+}
+
+.Box div {
+    width: 100px;
+    height: 70px;
+}
+
+.secondpage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.secondpage .writings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.secondpage h1 {
+    color: #f16a00;
+    margin-right: 40vw;
+    width: 20%;
+    font-family: "Varela Round", sans-serif;
+}
+
+.secondpage p {
+    color: #fff;
+    margin-right: 10vw;
+    font-family: "Libre Baskerville", serif;
+
+
+}
+
+.secondpage img {
+    width: 50vw;
+}
+
+.thirdpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tools {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.tools img {
+    display: flex;
+    flex-direction: row;
+    width: 5vw;
+    margin-left: 4vw;
+    margin-top: 2vw;
+}
+
+.thirdpage .heading h1 {
+    color: #f16a00;
+    font-family: "Libre Baskerville", serif;
+}
+
+.tools img:hover {
+    scale: 0.9;
+    transition: 0.6all ease;
+}
+
+.thirdpage .otherskills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thirdpage .otherskills h2 {
+    color: #f16a00;
+    font-size: 2.5vw;
+    font-family: "Libre Baskerville", serif;
+    align-items: center;
+    margin-left: 27vw;
+
+
+}
+
+.thirdpage .otherskills p {
+    color: #fcfbfb;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+    width: 80vw;
+
+}
+
+.thirdpage .heading h1 {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 2.5vw;
+
+}
+.otherskills h1 {
+    color: #fcfbfb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+    gap: 0px;
+    /* border-top: 1px solid #393e46; */
+    background-color: #8f858510;
+    backdrop-filter: blur(10px);
+}
+
+.footer p {
+    color: rgba(255, 255, 255, 0.747);
+    font-size: max(0.5vw, 17px);
+    text-align: center;
+    margin-bottom:6vw;
+}
+
+.footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: auto;
+    gap: auto;
+    min-width: auto;
+}
+
+.footer .left {
+    margin-left: 5vw;
+    height: 90px;
+
+}
+
+.footer .middle {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.footer .right {
+    margin-right: 5vw;
+}
+
+.footer .social {
+    gap: 2vw;
+    height: 90px;
+}
+
+.footer .social img {
+    width: 35px;
+    border-radius: 50%;
+    height: auto;
+    border: none;
+    border-radius: 50%;
+    background-color: #fdfcfc00;
+}
+
+.footer .social img:hover {
+    scale: 1.1;
+}
+
+.footer .social img:active {
+    scale: 0.9;
+}
+
